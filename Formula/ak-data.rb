@@ -7,17 +7,17 @@ class AkData < Formula
 
   on_macos do
     url "https://github.com/arkadia-solutions/arkadia-data/releases/download/v0.3.0/ak-data-0.3.0-macos-universal.tar.gz"
-    sha256 "b638a791df90259fa73c6da2356d1642ac6fd04f9633f72e94cab6bbaca844e9"
+    sha256 "23a08e223752b3b16899e95fb9f2bd3c26321ea1ffaeb6cc88f25db9f92b8348"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arkadia-solutions/arkadia-data/releases/download/v0.3.0/ak-data-0.3.0-linux-x86_64.tar.gz"
-      sha256 "ae656509c3f0600b06e5029260e929260125b3a36a70fdb6e0fec0468b47afa8"
+      sha256 "8ece154ba1a0dd6edc2423480b4e0950c38cea7c71d98a2441a780dba190605e"
     end
     on_arm do
       url "https://github.com/arkadia-solutions/arkadia-data/releases/download/v0.3.0/ak-data-0.3.0-linux-arm64.tar.gz"
-      sha256 "bdcb083fac4ea8687202912b8c57950d83b334db4d77543348e9aa7c4bb034fe"
+      sha256 "d3f1cb13d6c3afdc92bf7d4da60e46887172d43e8ebe540e35d937296a05f3e6"
     end
   end
 
